@@ -14,3 +14,7 @@ class dog(animal):
 class cat(animal):
     def talk(self):
         return "I am a cat"
+
+class horse(animal):
+    def talk(self):
+        return "I am a horse"
