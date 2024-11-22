@@ -7,3 +7,6 @@ class animal(ABC):
     @abstractclassmethod
     def talk(self):
         pass
+class dog(animal):
+    def talk(self):
+        return "I am a dog"
