@@ -10,3 +10,7 @@ class animal(ABC):
 class dog(animal):
     def talk(self):
         return "I am a dog"
+
+class cat(animal):
+    def talk(self):
+        return "I am a cat"
